@@ -1,19 +1,5 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "functions": {
-    "api/**/*.js": {
-      "memory": 1024,
-      "maxDuration": 60
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ]
+  "outputDirectory": "build",
+  "framework": "react"
 }
